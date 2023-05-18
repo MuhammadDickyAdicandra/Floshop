@@ -1,0 +1,98 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  height: 100vh;
+  background-image: url("bgblue.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+p {
+  color: #ffff;
+  font-family: "Open Sans", sans-serif;
+  padding-top: 10px;
+}
+
+h1 {
+  text-align: center;
+  padding-left: 100px;
+  padding-bottom: 20px;
+  font-size: 2em;
+}
+
+a {
+  color: #c9fc00;
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 400px;
+  padding: 30px;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0,0,0,.7);
+  box-shadow: 0 0px 10px #c9fc00;
+  box-sizing: border-box;
+  border-radius: 20px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container h1 {
+    margin: 0 0 20px;
+    padding: 0;
+    text-align: center;
+    color: #ffff;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    border-bottom: 4px solid #c9fc00;
+}
+
+.container label {
+    text-align: left;
+    color: #ffff;
+    font-weight: bold;
+    position: absolute;
+    font-size: 15px;
+    transition: 0.5s;
+    pointer-events: none;
+    padding: 10px 0;
+}
+.container form input {
+    width: 100%;
+    padding: 10px 0px;
+    margin-bottom: 5px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border-bottom: 2px solid #c9fc00;
+    color: #ffff;
+    font-size: 17px;
+    position: relative;
+}
+
+.container form button {
+    width: 100px;
+    height: 50px;
+    padding: 0px ;
+    border: 2px solid #c9fc00;
+    color: #ffff;
+    font-weight: bold;
+    background-color: transparent;
+    border-radius: 30px ;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: 0.5s;
+}
